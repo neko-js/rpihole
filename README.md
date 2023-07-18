@@ -18,7 +18,7 @@ If this does not work, look for the Raspberry Pi IP within your router under net
 ## Install Samba, Docker, Pi-hole
 
 ```
-sudo apt-get install git
+sudo apt-get install -y git
 ```
 ```
 git clone https://github.com/neko-js/rpihole.git
