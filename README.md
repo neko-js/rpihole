@@ -27,6 +27,8 @@ ssh pi@picloud
 
 If this does not work, look for the Raspberry Pi IP under network information within your router.
 
+Type `yes`, when asked to trust the fingerprint. Type in password and you will be able to execute commands directly on the Raspberry Pi.
+
 ## Install Samba, Docker, Pi-hole
 
 ```
