@@ -31,6 +31,8 @@ Type `yes`, when asked to trust the fingerprint. Type in password and you will b
 
 ## Install Samba, Docker, Pi-hole
 
+Run the following commands in order:
+
 ```
 sudo apt-get install -y git
 ```
