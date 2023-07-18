@@ -4,7 +4,7 @@ Install Raspberry Pi with Pi-hole in Docker.
 
 ## Install OS
 
-Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/). Run the installer. Insert the SD card and choose it in the UI. Choose an OS pick
+Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/). Run the installer. Insert the SD card and choose it in the UI. Pick an OS
 ```
 Raspberry Pi OS (Other)
 ```
