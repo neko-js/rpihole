@@ -43,5 +43,4 @@ docker -v
 docker run hello-world
 
 # Start Pihole
-cd ~/rpihole
 docker compose up -d
