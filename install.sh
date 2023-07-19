@@ -12,7 +12,7 @@ apt-get update
 # Set up screen
 apt-get install -y screen
 echo "caption always \"%{= kw}%-w%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+w %= [%l] %0c:%s %{-}\"
-startup_message off" >> .screenrc
+startup_message off" >> ~/.screenrc
 
 # Setting up Samba home folder
 apt-get install -y samba
