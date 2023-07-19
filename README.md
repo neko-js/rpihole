@@ -87,4 +87,4 @@ You can also access the home folder within your network. The network connection 
 ```
 \\picloud\picloud-home
 ```
-E.g. go to "This PC" on MS Windows and right click anywhere to create a network connection with this connection.
+E.g. go to "This PC" on MS Windows and right click anywhere to create a network connection with this address.
