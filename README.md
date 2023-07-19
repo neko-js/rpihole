@@ -31,18 +31,28 @@ Type `yes`, when asked to trust the fingerprint. Type in password and you will b
 
 ## Install Samba, Docker, Pi-hole
 
-Run the following command:
+Run the following commands.
 
+This will clone this repo and start the installation script, which will install Samba and Docker. You have to type your password during installation once and retype it again.
 ```
 sudo apt-get install -y git \
 && git clone https://github.com/neko-js/rpihole.git \
 && cd rpihole \
-&& sudo bash ./install.sh \
-&& cd rpihole \
-&& sudo bash ./post-install.sh
+&& sudo bash ./install.sh
 ```
 
-You have to type your password during installation once and retype it again.
+Post Docker installation steps:
+```
+sudo groupadd docker \
+; sudo usermod -aG docker $USER \
+; newgrp docker \
+; sudo chmod 666 /var/run/docker.sock
+```
+
+Download and run Pi-hole:
+```
+sudo bash ./post-install.sh
+```
 
 ## Post Installation Steps
 
