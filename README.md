@@ -29,6 +29,16 @@ If this does not work, look for the Raspberry Pi IP under network information wi
 
 Type `yes`, when asked to trust the fingerprint. Type in password and you will be able to execute commands directly on the Raspberry Pi.
 
+## Terminal 101
+
+|Hotkey|Action|
+|---|---|
+|Mark text|Copy marked text|
+|Right click|Paste from clipboard|
+|Up|Last command|
+|CTRL+C|Abort current action<br>Exit|
+|CTRL+Q|Sometimes exit|
+
 ## Install Samba, Docker, Pi-hole
 
 Run the following commands.
