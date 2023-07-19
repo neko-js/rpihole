@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Post Docker Steps
-sudo groupadd docker
-sudo usermod -aG docker $USER
+groupadd docker
+usermod -aG docker $USER
 newgrp docker
-sudo chmod 666 /var/run/docker.sock
+chmod 666 /var/run/docker.sock
 
 # Verify Installation
 docker -v
