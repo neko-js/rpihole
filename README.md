@@ -31,20 +31,15 @@ Type `yes`, when asked to trust the fingerprint. Type in password and you will b
 
 ## Install Samba, Docker, Pi-hole
 
-Run the following commands in order:
+Run the following command:
 
 ```
-sudo apt-get install -y git
+sudo apt-get install -y git \
+&& git clone https://github.com/neko-js/rpihole.git \
+&& cd rpihole \
+&& sudo bash ./install.sh
 ```
-```
-git clone https://github.com/neko-js/rpihole.git
-```
-```
-cd rpihole
-```
-```
-sudo bash ./install.sh
-```
+
 You have to type your password during installation once and retype it again.
 
 ## Post Installation Steps
