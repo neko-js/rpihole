@@ -1,14 +1,5 @@
 #!/bin/bash
 
-# Post Docker Steps
-usermod -aG docker $USER
-newgrp docker
-chmod 666 /var/run/docker.sock
-
-# Verify Installation
-docker -v
-docker run hello-world
-
 # Start Pihole
 docker compose up -d
 
