@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Post Docker Steps
-groupadd docker
 usermod -aG docker $USER
 newgrp docker
 chmod 666 /var/run/docker.sock
