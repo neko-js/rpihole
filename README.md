@@ -37,7 +37,9 @@ Run the following command:
 sudo apt-get install -y git \
 && git clone https://github.com/neko-js/rpihole.git \
 && cd rpihole \
-&& sudo bash ./install.sh
+&& sudo bash ./install.sh \
+&& cd rpihole \
+&& sudo bash ./post-install.sh
 ```
 
 You have to type your password during installation once and retype it again.
