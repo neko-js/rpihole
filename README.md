@@ -2,6 +2,17 @@
 
 Install Raspberry Pi with Pi-hole in Docker.
 
+## Description
+
+This guide provides step-by-step information to set up following services on a *Raspberry Pi*:
+
+|Service|Purpose|
+|---|---|
+|[SSH](https://www.raspberrypi.com/software/)|Accessing the command line from other devices|
+|[Samba](https://github.com/samba-team/samba)|Network storage for easy file system access|
+|[Docker](https://github.com/docker)|Run sandboxed applications and servers|
+|[PiHole](https://github.com/pi-hole/pi-hole)|DNS with blacklists for ads (like hosts file for Windows)|
+
 ## Install OS
 
 Download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/). Run the installer. Insert the SD card and choose it in the UI. Pick an OS
